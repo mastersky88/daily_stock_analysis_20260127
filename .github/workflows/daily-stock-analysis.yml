@@ -26,4 +26,4 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           WECHAT_WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
-        run: python src/analyzer.py
+        run: python -m src.analyzer
